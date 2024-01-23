@@ -50,7 +50,7 @@ const team = [
     console.log("role: " + oggetto.role)
     console.log(oggetto.name + " " + oggetto.role)
     console.log("---")
-    elemento.innerHTML = elemento.innerHTML + "<h1>"+ oggetto.name +"</h1>"
+    elemento.innerHTML = elemento.innerHTML + "<h1>" + oggetto.name + "--" + oggetto.role + "</h1>"
     
   }
 
